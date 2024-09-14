@@ -1,0 +1,384 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  justify-content: center;
+  display:inline-flexbox;
+  margin-left: auto;
+  margin-right: auto;
+  width: 995px;
+}
+
+h1 { font-size: 26px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
+h2 { font-size: 22px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+h3 { font-size: 16px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+p {  font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+
+#center {
+  text-align: center; 
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  width: 995px;
+  background-color: white;
+  top: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15.4px;
+  margin-right: 300px;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: right;
+  padding: 5px 5px;
+  margin: 5px 5px;
+  text-decoration: none;
+}
+
+#hobbiesMenu,  #languagesMenu, #skillsMenu{
+  display:none;
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid #000
+}
+
+.navbar img{
+  width: 17px;
+}
+
+.mobilemenu {
+  display: none;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  bottom: 0;
+}
+
+.mobilemenu a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 7px;
+  
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: auto;
+  margin-bottom: auto;
+  
+}
+
+.mobilemenu a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.mobilemenu img {
+  height: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mobileheader {
+  display: none;
+  text-align: center;
+  color:black;
+  width: 100%;
+  padding: 10px;
+
+}
+
+.mobileheader img {
+  float: right;
+  border-radius: 50%;
+  border-color:#3E6590; 
+  border-style: solid;
+  width: 100px;
+  
+}
+
+.mobileheader h1 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.left {
+  position: fixed;
+  margin-top: -10px;
+  float: left;
+  width: 300px;
+  height:100%;
+  background-color: #3E6590;
+  color: white;
+  padding: 20px;
+}
+
+.left h2 {
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+.left a{
+  text-decoration: none;
+  color: white;
+}
+
+.left td, .contactMain td{
+  text-align: left;
+}
+
+.left img, .contactMain img {
+  height: 15px;
+}
+
+.left th, .contactMain th {
+  text-decoration: underline;
+  text-align: left;
+  border-bottom: 1px solid #000;
+}
+
+.left ul::marker{
+  list-style-type: circle;
+  color: white;
+}
+
+.profileLeft{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flexbox;
+}
+
+.profileLeft img{
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+  border-bottom: 5px;
+  width: 120px;
+  height: auto;
+}
+
+#contactLeft, #languageLeft, #hobbiesLeft, #skillsLeft {
+  display: contents;
+}
+
+#languagesMain, #languagesMain, #hobbiesMain, .skillsMain {
+  display: none;
+}
+
+.contactMain{
+  display: none;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 17px;
+  margin-bottom: 60px;
+}
+.contactMain td{
+  color: white;
+  text-decoration: none;
+}
+
+.contactMain h2{
+  color: white;
+}
+
+.main {
+  float: left;
+  margin-top: 30px;  
+  width: auto;
+  padding: 0px 20px;
+  overflow: hidden;
+  margin-left: 300px;
+  display: grid;      
+}
+
+.main h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.main h2 {
+  color:#3E6590;
+  border-bottom: 2px solid #3E6590;
+  padding-bottom: 10px;
+}
+
+.main a {
+  color:black;
+  text-decoration: none;
+}
+
+.work h2{
+  color: black;
+  border-bottom: none;
+  padding: 0px;
+  line-height: 25px;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  
+}
+
+.work p{
+  color: grey;
+  line-height: none;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+#downloadFile{
+  display: contents;
+  float: right;
+  position:absolute;
+  bottom: 0px;
+  width: 100px;
+}
+
+
+@media only screen and (max-width:800px), print {
+/* For tablets: */
+body{
+  width:100%;
+}
+
+#languagesMain, #hobbiesMain {
+  display: grid;
+}
+
+.mobileheader {
+  display:inline-block;
+}
+
+.mobilemenu {
+  display: inline;
+}
+
+.mobilemenu a {
+  display: flex;
+}
+
+.left, .navbar, .main h1, .downloadFile, #pdf {
+  display: none;
+}
+.main {
+  width: 100%;
+  margin-left: 0px;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+.contactMain {
+  display:grid;
+  background-color: #3E6590;
+  color: #f1f1f1;
+  text-decoration: none;
+  text-align: none;
+  margin-bottom: 90px;
+  padding: 10px;
+}
+
+.contactMain a{
+  color: #f1f1f1;
+}
+
+
+}
+
+@media print {
+.mobilemenu, .downloadFile {
+  display: none;
+}
+
+.contactMain {
+  color: black;
+}
+
+.contactMain h2 {
+  color: black;
+}
+
+.contactMain td{
+  color:black;
+}
+
+.contactMain a{
+  color:black;
+}
+
+.contactMain img {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+.page-path {
+  display: none !important;
+}
+
+
+}
+
+@media screen and (max-height: 450px) {
+
+  
+#languageLeft, #hobbiesLeft, #skillsLeft, .downloadFile, #pdf {
+  display: none;
+}
+
+
+
+#hobbiesMain, #languagesMain, #hobbiesMenu, #languagesMenu, .skillsMain, #skillsMenu {
+  display: grid;
+}
+
+}
+
+@media screen and (max-height: 550px) {
+
+  
+#skillsLeft, #hobbiesLeft, #pdf {
+  display: none;
+}
+
+#hobbiesMain, #hobbiesMenu, .skillsMain, #skillsMenu {
+  display: grid;
+}
+}
+
+@media screen and (max-height: 880px) {
+#skillsLeft {
+  display: none;
+}
+
+.skillsMain, #skillsMenu {
+  display: grid;
+}
+
+
+}
+
+@media only screen and (max-width:500px) {
+/* For mobile phones: */
+
+
+}
+
+
