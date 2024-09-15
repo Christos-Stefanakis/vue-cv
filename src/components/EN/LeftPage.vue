@@ -6,23 +6,26 @@
         <div id="contactLeft">
             <h2>CONTACT</h2>
             <table>
-                <tr>
-                    <td id="center"><img src="../../../img/icons/icons8-email-100.png"></td>
-                    <td>christos.stefanakis@outlook.com</td>
-                </tr>
-                <tr>
-                    <td id="center"><img src="../../../img/icons/icons8-phone-90.png"></td>
-                    <td>+420739737538</td>
-                </tr>
-                <tr>
-                    <td id="center"><img src="../../../img/icons/icons8-location-100.png"></td>
-                    <td>Czech Republic, Brno, Styrice</td>
-                </tr>
-                <tr>
-                    <td id="center"><img src="../../../img/icons/icons8-linkedin-90.png"></td>
-                    <td><a href="https://www.linkedin.com/in/christos-stefanakis-74199543/">linkedin.com/in/christos-stefanakis-74199543</a></td>
-                </tr>
+                <tbody>
+                    <tr>
+                        <td id="center"><img src="../../../img/icons/icons8-email-100.png"></td>
+                        <td>christos.stefanakis@outlook.com</td>
+                    </tr>
+                    <tr>
+                        <td id="center"><img src="../../../img/icons/icons8-phone-90.png"></td>
+                        <td>+420739737538</td>
+                    </tr>
+                    <tr>
+                        <td id="center"><img src="../../../img/icons/icons8-location-100.png"></td>
+                        <td>Czech Republic, Brno, Styrice</td>
+                    </tr>
+                    <tr>
+                        <td id="center"><img src="../../../img/icons/icons8-linkedin-90.png"></td>
+                        <td><a href="https://www.linkedin.com/in/christos-stefanakis-74199543/">linkedin.com/in/christos-stefanakis-74199543</a></td>
+                    </tr>
+                </tbody>
             </table>
+
         </div>
         <div id="skillsLeft">
             <h2>SKILLS</h2>

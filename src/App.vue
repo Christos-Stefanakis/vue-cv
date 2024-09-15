@@ -1,9 +1,7 @@
 <template>
   <TopMenu></TopMenu>
   <MobileMenu></MobileMenu>
-  <LeftPage>
-    <AboutMeEn></AboutMeEn>
-  </LeftPage>
+  <LeftPage ></LeftPage>
   <RightPage></RightPage>
 </template>
 
